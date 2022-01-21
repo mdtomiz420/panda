@@ -1,0 +1,90 @@
+
+.text-black{
+    color: #0e0101;
+    font-weight: 600;
+    font-size: 45px;
+}
+.text-normal{
+    color: rgb(22, 19, 19);
+    font-size: 18px;
+}
+.text-dangerer{
+    font-weight: 600;
+    color: rgb(236, 16, 82);
+}
+.bg-unknown{
+    background-color: #dfc5c5;
+    height: 400px;
+    overflow: hidden;
+}
+.carousel-content{
+    height: 400px;
+    overflow: hidden;
+}
+.shoe-i{
+    width: 100%;
+}
+.grid-col{
+    border-radius: 8px;
+}
+
+.borderr:hover{
+   box-shadow: 3px  3px 10px rgb(163, 159, 159);
+}
+.backpack h1{
+    font-size: 25px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+.grid-cat{
+    
+    column-gap: 30px;
+}
+.backpack p{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.contact h1{
+    font-size: 30px;
+}
+footer{
+    margin-top: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+}
+@media only screen and (max-width: 900px){
+    .bg-unknown{
+        height: auto;
+        overflow: visible;
+    }
+    .carousel-content{
+        height: auto;
+    }
+    .grid-row{
+        
+        row-gap: 30px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .bg-unknown{
+        height: auto;
+        overflow: visible;
+    }
+    .carousel-content{
+        height: auto;
+    }
+    .grid-row{
+        
+        row-gap: 30px;
+
+    }
+}
